@@ -9,18 +9,23 @@
 </head>
 <body>
     <div id="container">
-        <div id="header">
-            <h3 style="display: inline;"> <span class="green">&raquo; Google</span></h3>
-            <form method="get" action="https://www.google.co.jp/search">
-                <input id="GoogleSearch" type="text" data-provide="typeahead" name="q" onkeydown='if(event.keyCode==13){submit();}' \>
-            </form>
-        </div>
-        <div id="header">
-            <h3 style="display: inline; "> <span class="green">&raquo; Baidu</span></h3>
-            <form method="get" action="https://www.baidu.com/s">
-                <input id="BaiduSearch" style="margin-left:31px;" type="text" data-provide="typeahead" name="wd" onkeydown='if(event.keyCode==13){submit();}' \>
-            </form>
-        </div>
+        <form method="get" action="https://www.google.co.jp/search">
+            <div class="search-bar">
+                <span class="search-bar-header">
+                    &raquo; Google
+                </span>
+                <input id="GoogleSearch" type="text" name="q" onkeydown='if(event.keyCode==13){submit();}' \>
+            </div>
+        </form>
+        <form method="get" action="https://www.baidu.com/s">
+            <div class="search-bar">
+                <span class="search-bar-header">
+                    &raquo; Baidu
+                </span>
+                <input id="BaiduSearch" type="text" name="wd" onkeydown='if(event.keyCode==13){submit();}' \>
+            </div>
+        </form>
+
         <div id="links">
             <div class="linksbox">
                 <h3><span class="green">&raquo; 娱乐</span></h3>
