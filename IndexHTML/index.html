@@ -1,0 +1,68 @@
+﻿<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>首页</title>
+    <link rel="stylesheet" href="css/Style.css">
+    <script data-main="js/Config" src="https://cdn.bootcss.com/require.js/2.3.5/require.min.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h3 style="display: inline;"> <span class="green">&raquo; Google</span></h3>
+            <form method="get" action="https://www.google.co.jp/search">
+                <input id="GoogleSearch" type="text" data-provide="typeahead" name="q" onkeydown='if(event.keyCode==13){submit();}' \>
+            </form>
+        </div>
+        <div id="header">
+            <h3 style="display: inline; "> <span class="green">&raquo; Baidu</span></h3>
+            <form method="get" action="https://www.baidu.com/s">
+                <input id="BaiduSearch" style="margin-left:31px;" type="text" data-provide="typeahead" name="wd" onkeydown='if(event.keyCode==13){submit();}' \>
+            </form>
+        </div>
+        <div id="links">
+            <div class="linksbox">
+                <h3><span class="green">&raquo; 娱乐</span></h3>
+                <a href="http://weibo.com" target="_blank">微博</a>
+                <a href="http://www.bilibili.com" target="_blank">哔哩哔哩</a>
+                <a href="https://www.zhihu.com" target="_blank">知乎</a>
+                <a href="http://www.iplaysoft.com" target="_blank">异次元</a>
+                <a href="http://www.acfun.tv" target="_blank">AcFun</a>
+                <a href="http://www.zimuzu.tv" target="_blank">人人影视</a>
+                <a href="http://global.bing.com/?setmkt=en-us" target="_blank">Bing</a>
+                <a href="https://share.dmhy.org" target="_blank">动漫花园</a>
+            </div>
+            <div class="linksbox">
+                <h3><span class="green" target="_blank">&raquo; 学习</span></h3>
+                <a href="https://github.com" target="_blank">Github</a>
+                <a href="http://stackoverflow.com" target="_blank">StackOverflow</a>
+                <a href="https://leetcode.com/problemset/algorithms/" target="_blank">LeetCode</a>
+                <a href="https://cnodejs.org/" target="_blank">CnodeJs</a>
+                <a href="http://www.uisdc.com/" target="_blank">优设</a>
+                <a href="https://www.qcloud.com/" target="_blank">腾讯云</a>
+                <a href="http://www.cplusplus.com/" target="_blank">CPP DOC</a>
+                <a href="https://msdn.microsoft.com/library" target="_blank">MSDN DOC</a>
+                <a href="https://docs.microsoft.com/" target="_blank">MS DOCS</a>
+                <a href="https://developer.mozilla.org/zh-CN/docs/Web" target="_blank">MDN DOC</a>
+
+            </div>
+            <div class="linksbox">
+                <h3><span class="green">&raquo; 购物</span></h3>
+                <a href="https://www.taobao.com/" target="_blank">淘宝</a>
+                <a href="https://www.tmall.com/" target="_blank">Tmall</a>
+                <a href="http://www.jd.com/" target="_blank">京东</a>
+                <a href="http://www.dangdang.com/" target="_blank">当当</a>
+            </div>
+            <div class="linksbox">
+                <h3><span class="green">&raquo; 校务</span></h3>
+                <a href="http://jwgldx.gdut.edu.cn/" target="_blank">教务管理系统</a>
+                <a href="http://news.gdut.edu.cn/ArticleList.aspx?category=4" target="_blank">新闻通知网</a>
+                <a href="http://gdut.eswis.cn/" target="_blank">学生工作信息</a>
+                <a href="http://192.168.1.1/" target="_blank">路由器管理</a>
+            </div>
+        </div>
+        <div id="clockbox" style="font:80pt Microsoft YaHei; font-weight: 100; color: rgba(255,255,255,0.35);text-align: center;"></div>
+    </div>
+</body>
+</html>
