@@ -70,6 +70,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="css\Style.css" />
+    <Content Include="img\LaDigue_EN-CN5418321345_1920x1080.jpg" />
     <Content Include="js\AutoCompleteComponent.js" />
     <Content Include="js\AutoCompleteConfiguration\AutoCompleteConfigurations.js" />
     <Content Include="js\AutoCompleteConfiguration\IAutoCompleteConfiguration.js" />
@@ -80,6 +81,7 @@
     <Content Include="package-lock.json" />
     <Content Include="package.json" />
     <Content Include="tsconfig.json" />
+    <None Include="Properties\PublishProfiles\zhicwan-site - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -102,9 +104,7 @@
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Properties\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
