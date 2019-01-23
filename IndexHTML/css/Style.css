@@ -6,6 +6,7 @@ html, body {
     color: #FFFFFF;
     font-size: 13px;
     background-image: url("../img/LaDigue_EN-CN5418321345_1920x1080.jpg");
+    background-position-x: center;
 }
 
 * {

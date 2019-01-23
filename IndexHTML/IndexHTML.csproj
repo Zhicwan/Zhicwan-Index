@@ -77,6 +77,8 @@
     <Content Include="js\ClockComponent.js" />
     <Content Include="js\Config.js" />
     <Content Include="js\Initialize.js" />
+    <Content Include="js\libs\jquery.min.js" />
+    <Content Include="js\libs\require.min.js" />
     <Content Include="js\libs\typeahead.jquery.min.js" />
     <Content Include="package-lock.json" />
     <Content Include="package.json" />
